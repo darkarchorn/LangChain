@@ -3,7 +3,7 @@
 
 ## **26/06/2023**
 - Đọc và tham khảo các tài liệu và video tutorial về LangChain  
-Overview: [this shit](https://www.youtube.com/watch?v=RoR4XJw8wIc&ab_channel=AssemblyAI)  
+Overview: [Youtube Overvew by AssemblyAI](https://www.youtube.com/watch?v=RoR4XJw8wIc&ab_channel=AssemblyAI)  
 Github repository:  
 [kyrolabs' Awesome Langchain](https://github.com/kyrolabs/awesome-langchain)  
 [hwchase17's Langchain](https://github.com/hwchase17/langchain)  
