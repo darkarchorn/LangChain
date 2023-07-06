@@ -20,4 +20,7 @@ feature = np.arange(6, 21)
 label = 3*feature + 4
 # Task 2:
 noise = (np.random.random([15]) * 4) - 2
+noise = noise.round(decimals=1)
 print(noise)
+label = label + noise 
+print(label)

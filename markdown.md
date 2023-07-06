@@ -26,7 +26,7 @@ LangChain là một framework hỗ trợ phát triển các ứng dụng đượ
 - Example code:
 ``` python
 from langchain.llms import OpenAI
-key = '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'
+key = 'key'
 llm = OpenAI(temperature=0, openai_api_key=key)
 text = "How many days is it from 26/06/2002 to 27/09/2020"
 print(llm(text))
@@ -39,7 +39,7 @@ print(llm(text))
 from langchain import PromptTemplate
 from langchain.llms import OpenAI
 
-key = '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'
+key = 'key'
 llm = OpenAI(temperature=0, openai_api_key=key)
 template = """/
 You are a naming consultant for new companies.
@@ -167,7 +167,7 @@ from langchain.agents import initialize_agent
 
 from langchain.chains import LLMChain
 from langchain.llms import OpenAI
-key = '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'
+key = 'key'
 llm = OpenAI(temperature=0, openai_api_key=key)
 tools = load_tools(["wikipedia", "llm-math"], llm=llm)
 agent = initialize_agent(tools, llm, agent="zero-shot-react-description", verbose = True)
@@ -180,7 +180,7 @@ agent.run(prompt)
 ```py
 from langchain.llms import OpenAI
 from langchain.chains import ConversationChain
-key = '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'
+key = 'key'
 llm = OpenAI(temperature=0, openai_api_key=key)
 conversation = ConversationChain(llm=llm, verbose = True)
 conversation.predict(input = "Can we talk about something interesting?")
